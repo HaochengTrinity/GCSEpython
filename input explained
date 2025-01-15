@@ -16,3 +16,9 @@ name = input("enter name")
 #this data can be displayed later
 print(name)
 
+name = input("enter your name")
+age = input("enter your age")
+favColour = input("enter your favourite colour")
+
+print("Hello", name, "you are", age, "years old and your favourite colour is", favColour)
+#this asks the user's name, age and favourite colour and displays them.

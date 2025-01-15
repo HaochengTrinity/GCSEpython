@@ -22,3 +22,19 @@ favColour = input("enter your favourite colour")
 
 print("Hello", name, "you are", age, "years old and your favourite colour is", favColour)
 #this asks the user's name, age and favourite colour and displays them.
+
+#casting introduced
+#casting is a way to change data types
+#example:
+
+age = str(input("enter age"))
+ageInt = int(age)
+
+total = ageInt+10
+print(total)
+#inputs are strings by default
+
+#the following functions allow you to "CAST"
+int()
+str()
+float()

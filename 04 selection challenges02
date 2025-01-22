@@ -1,0 +1,8 @@
+#ask the user to enter a number that is under 20
+number = int(input("enter a number that is under 20\n"))
+#if they enter a number that is 20 or more, display the message "too high"
+if number >= 20:
+    print("too high")
+#otherwise display "thank you"
+else:
+    print("thank you")

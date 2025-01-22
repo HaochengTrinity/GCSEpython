@@ -1,0 +1,14 @@
+#ask the user if it is raining and convert their answer to lower case
+rain = input("is it raining\n").lower()
+#if yes, ask if it is windy
+if rain == "yes":
+    windy = input("is it windy\n").lower()
+    #if yes, display "it is too windy for an umbrella"
+    if windy == "yes":
+        print("it is too windy for an umbrella")
+    #otherwise offer them an umbrella
+    else:
+        print("take an umbrella")
+#otherwise tell them to enjoy their day
+else:
+    print("enjoy your day")

@@ -1,0 +1,6 @@
+total = 0
+ans = "y"
+while ans == "y":
+    total += int(input("Enter a number number."))
+    ans = input("Do you want to continue (y/n) ")
+print(total)

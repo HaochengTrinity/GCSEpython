@@ -1,0 +1,8 @@
+count = -1
+name = "hii"
+while name != "n":
+    name = input("do you want to invite somebody")
+    if name != "n":
+        print(name, "has now been invited")
+    count += 1
+print(count, "people have been invited")

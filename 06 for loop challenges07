@@ -1,0 +1,12 @@
+direction = input("do you want to count up or down (u or d)")
+a = 20
+if direction == "u":
+    topnum = int(input("enter the top number"))
+    for i in range(topnum):
+        print(i+1)
+if direction == "d":
+    b20 = int(input("enter a number below 20"))
+    for i in range(b20 + 1):
+        print(a)
+        a = a-1
+        

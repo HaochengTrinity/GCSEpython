@@ -1,0 +1,7 @@
+total = 0
+for i in range(5):
+    number = int(input("enter a number"))
+    num = input("do you want this number included - y/n")
+    if num == "y":
+        total = total+number
+print(total)

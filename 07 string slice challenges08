@@ -1,0 +1,5 @@
+import random as r
+random = str(r.randrange(0,50))
+ln = input("what is your last name?")
+ln3 = str(ln[0:3])
+print(ln3+random)

@@ -1,0 +1,6 @@
+name = input("enter your first name")
+vowel = ["a", "e", "i", "o", "u"]
+fl = (name[0])
+if fl in vowel:
+    name = name.replace(name[0], "", 1)
+print(name)

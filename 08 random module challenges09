@@ -1,0 +1,29 @@
+import random as r
+
+colours = ["red", "green", "yellow", "blue", "orange"]
+
+print(colours)
+
+programcolour = r.choice(colours)
+
+choice = input("pick a colour\n")
+
+correct = False
+while correct == False:
+
+    if programcolour == choice:
+        print("well done")
+        correct = True
+    else:
+        if programcolour == "red":
+            print("you're turning a bit", programcolour)
+        if programcolour == "green":
+            print("i bet you are green with envy")
+        if programcolour == "yellow":
+            print("are you yellow?")
+        if programcolour == "blue":
+            print("you are probably feeling blue right now")
+        if programcolour == "orange":
+            print("do you want an orange?")
+        choice = input("pick again\n")
+        

@@ -1,0 +1,10 @@
+cars = []
+repeat = True
+while repeat == True:
+    car = input("input a car brand or press x to exit\n")
+    if car == "x":
+        print("exiting...")
+        print("in the list is", cars)
+        repeat = False
+    else:
+        cars.append(car)

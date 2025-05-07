@@ -1,0 +1,11 @@
+pat = []
+print("enter the names of three people you want to invite to a party")
+for i in range(3):
+    pat.append(input())
+again = input("do you want to add another person")
+while again != "no":
+    pat.append(input("who do you wanna add?"))
+    again = input("do you want to add another person")
+
+lengthofpat = len(pat)
+print("you have invited", lengthofpat, "people")

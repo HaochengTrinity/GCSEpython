@@ -1,0 +1,9 @@
+titletv = ["paw patrol", "rick and morty", "peppa pig", "octonauts"]
+for title in titletv:
+    print(title)
+anothershow = input("enter another show and the position you want to insert it into the list\n")
+place= int(input())
+place -= 1
+titletv.insert(place, anothershow)
+for title in titletv:
+    print(title)

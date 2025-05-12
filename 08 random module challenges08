@@ -1,0 +1,14 @@
+import random as r
+score = 0
+for i in range(5):
+    num1 = r.randrange(1, 999)
+    num2 = r.randrange(1, 999)
+    ans = num1 + num2
+    print(num1, "+", num2)
+    userans = int(input("enter the answer"))
+    if userans == ans:
+        print("correct")
+        score += 1
+    else:
+        print("incorrect")
+print("you got", score, "out of 5")

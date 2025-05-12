@@ -1,0 +1,12 @@
+import random as r
+num = r.randrange(1,10)
+correct = False
+while correct == False:
+    guess = int(input("guess the number"))
+    if guess == num:
+        print("correct")
+        correct = True
+    elif guess > num:
+        print("too high")
+    else:
+        print("too low")

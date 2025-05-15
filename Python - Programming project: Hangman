@@ -158,9 +158,9 @@ def hangman():
               print("the answer was", w)
               wins += 1
               if w == "frog":
-                wins += 9
+                wins += 999
                 print("frog")
-                print("+10wins")
+                print("+1000wins")
                 print("frog")
                 print("frog")
               break
@@ -181,9 +181,9 @@ def hangman():
             print("the answer was", w)
             wins += 1
             if w == "frog":
-                wins += 9
+                wins += 999
                 print("frog")
-                print("+10wins")
+                print("+1000wins")
                 print("frog")
                 print("frog")
             break

@@ -1,0 +1,9 @@
+a = int(input("choose the number of columns and rows\n"))
+b = int(input())
+emptyarray = [[0 for column in range(a)] for row in range(b)]
+print(emptyarray)
+x = 1 - int(input("what number value do you want to replace (column and row)\n"))
+y = 1 - int(input())
+z = int(input("what do you want to replace it with\n"))
+emptyarray[x][y] = z
+print(emptyarray)

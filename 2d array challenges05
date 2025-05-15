@@ -1,0 +1,9 @@
+x = int(input("choose the number of columns and rows\n"))
+y = int(input())
+a = int(input("what number do you want in the list\n"))
+emptyarray = [[a for column in range(x)] for row in range(y)]
+print(emptyarray)
+x = int(input("change the column and row numbers\n"))
+y = int(input())
+emptyarray = [[a for column in range(x)] for row in range(y)]
+print(emptyarray)

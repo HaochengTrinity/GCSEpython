@@ -1,0 +1,8 @@
+notepad = open("numbers.txt", "w")
+userlines = input("write something >>> ")
+userlineslist = list(userlines)
+
+userlines2 = (userlineslist[0]+ ", "+ userlineslist[1]+ ", "+ userlineslist[2]+ ", "+ userlineslist[3]+ ", "+ userlineslist[4])
+
+notepad.write(userlines2)
+notepad.close()

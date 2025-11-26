@@ -1,0 +1,3 @@
+notepad = open("names.txt", "w")
+notepad.write("a\nb\nc\nd\ne")
+notepad.close()

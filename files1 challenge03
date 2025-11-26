@@ -1,0 +1,3 @@
+display = open("names.txt", "r")
+print(display.read())
+display.close()

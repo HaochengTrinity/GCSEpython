@@ -1,0 +1,7 @@
+display = open("names.txt", "r")
+"""
+for i in range(5):
+    print(display.readline())
+"""
+print(display.readlines())
+display.close()

@@ -1,0 +1,7 @@
+def menu():
+    print("domination")
+    print("team deathmatch")
+    print("headquarters")
+
+menu()
+choose = int(input("choose one of the obtions by entering 1/2/3"))

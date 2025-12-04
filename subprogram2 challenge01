@@ -1,0 +1,14 @@
+def menu():
+    print("0 to exit")
+    print("1 for timetables")
+
+menu()
+
+def timetable():
+    number = int(input("enter a number between 1 and 12"))
+
+choice = int(input("enter a number"))
+if choice == 0:
+    print("bye")
+elif choice == 1:
+    timetable()

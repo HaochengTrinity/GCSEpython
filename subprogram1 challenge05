@@ -1,0 +1,44 @@
+def menu():
+    print("1) think big")
+    print("2) think bigger")
+    print("3) winning")
+    print("4) winner")
+    print("5) exit")
+
+menu()
+
+def big():
+    print("think big chosen")
+
+def bigger():
+    print("think bigger chosen")
+
+def winning():
+    print("winning chosen")
+
+def winner():
+    print("winner chosen")
+
+def exit():
+    print("exit chosen")
+    
+
+choice = 10
+while choice > 5:
+
+    choice = int(input("choose one of the options by entering 1, 2, 3, 4 or 5"))
+
+    if choice == 1:
+        big()
+    elif choice == 2:
+        bigger()
+    elif choice == 3:
+        winning()
+    elif choice == 4:
+        winner()
+    elif choice == 5:
+        exit()
+    elif choice >= 6:
+        print("invalid choice")
+
+print("bye")
